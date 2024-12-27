@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DvdEject", "DvdEject\DvdEject.csproj", "{319A9199-C055-40DE-8EA0-378FF577F7F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{319A9199-C055-40DE-8EA0-378FF577F7F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{319A9199-C055-40DE-8EA0-378FF577F7F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{319A9199-C055-40DE-8EA0-378FF577F7F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{319A9199-C055-40DE-8EA0-378FF577F7F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D7CBC2FA-A1E7-4EC4-8FDC-F0E52CE04EF3}
+	EndGlobalSection
+EndGlobal
