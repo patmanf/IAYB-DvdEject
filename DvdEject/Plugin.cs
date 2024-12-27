@@ -4,18 +4,23 @@ using HarmonyLib;
 using System;
 using System.Runtime.InteropServices;
 using System.Threading.Tasks;
+using UnityEngine;
 
 namespace DvdEject
 {
     [BepInPlugin(pluginGuid, pluginName, pluginVersion)]
     public class Plugin : BaseUnityPlugin
     {
+        static string loadBearingColonThree = ":3";
+
         public const string pluginGuid = "patman.iamyourbeast.dvdeject";
         public const string pluginName = "-eject";
-        public const string pluginVersion = "1.0.0";
+        public const string pluginVersion = "1.0.1";
 
         public void Awake()
         {
+            if (loadBearingColonThree != ":3") Application.Quit();
+
             Logger.LogInfo("your dvd drive is: damn ejected");
             new Harmony(pluginGuid).PatchAll();
         }
